@@ -904,7 +904,7 @@ WHERE e.MGR = e2.EMPNO ;
 
 
 -- 2) 외부조인 = 일치 하지 않은걸 표기한다
--- (1) 왼쪽 외부조인 : LEDT OUTER JOIN
+-- (1) 왼쪽 외부조인 : LEFT OUTER JOIN
 -- (2) 오른쪽 외부조인 : RIGHT OUTER JOIN
 
 SELECT e.EMPNO , e.ename, e.MGR , e2.ENAME  AS MGR_NAME

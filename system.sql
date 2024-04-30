@@ -44,3 +44,25 @@ GRANT CONNECT, resource TO c##test2;
 
 -- 비밀번호 변경
 ALTER USER c##test2 IDENTIFIED BY test;
+
+
+
+
+
+CREATE USER c##guestbook IDENTIFIED BY 12345
+DEFAULT TABLESPACE users
+TEMPORARY TABLESPACE TEMP
+QUOTA 10M ON USERS;
+
+GRANT CONNECT, resource TO c##guestbook;
+
+
+
+
+
+
+
+
+
+
+
